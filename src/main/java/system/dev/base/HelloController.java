@@ -25,7 +25,7 @@ public class HelloController {
 		// １つ目のダミーデータ作成
 		Person p1 = new Person();
 		p1.setName("taro");
-		p1.setAge(39);
+		p1.setAge(53);
 		p1.setMail("taro@yamada");
 		repository.saveAndFlush(p1);
 		// ２つ目のダミーデータ作成
